@@ -18,6 +18,7 @@ BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(Test::MockObject)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl(CGI)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
