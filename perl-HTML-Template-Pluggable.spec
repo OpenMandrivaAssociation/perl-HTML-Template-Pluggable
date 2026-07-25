@@ -1,15 +1,15 @@
 %define upstream_name    HTML-Template-Pluggable
-%define upstream_version 0.17
+%define upstream_version 0.22
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Extends HTML::Template with plugin support
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/HTML-Template-Pluggable
+Source0:	https://cpan.metacpan.org/authors/id/R/RH/RHESA/HTML-Template-Pluggable-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
